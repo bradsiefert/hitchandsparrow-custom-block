@@ -55,26 +55,26 @@ wp.blocks.registerBlockType('hitchandsparrow/blog-block', {
   },
 
   save: function(props) {
-    return React.createElement(
+    return wp.element.createElement(
       "div",
       {
         class: "blog-post-details"
       },
-      React.createElement(
+      wp.element.createElement(
         "div",
         {
           class: "blog-title"
         },
         props.attributes.blogtitle
       ),
-      React.createElement(
+      wp.element.createElement(
         "div",
         {
           class: "blog-date-location"
         },
         props.attributes.blogdatelocation
       ),
-      React.createElement(
+      wp.element.createElement(
         "div",
         {
           class: "blog-body"
