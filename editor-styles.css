@@ -1,0 +1,10 @@
+.wide-block {
+  width: 100%;
+  font-size: 1.2em !important;
+  padding: 8px 16px !important;
+}
+
+textarea.wide-block {
+  font-size: 1em !important;
+  min-height: 128px;
+}
