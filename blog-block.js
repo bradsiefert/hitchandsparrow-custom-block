@@ -57,9 +57,7 @@ wp.blocks.registerBlockType('hitchandsparrow/blog-block', {
   save: function(props) {
     return wp.element.createElement(
       "div",
-      {
-        class: "blog-post-details"
-      },
+      null,
       wp.element.createElement(
         "div",
         {
@@ -75,7 +73,7 @@ wp.blocks.registerBlockType('hitchandsparrow/blog-block', {
         props.attributes.blogdatelocation
       ),
       wp.element.createElement(
-        "div",
+        "p",
         {
           class: "blog-body"
         },
